@@ -1,0 +1,107 @@
+/* global style */
+body{
+	font-family: tahoma, arial;
+	padding-top: 70px;
+	min-height: auto;
+}
+hr{
+	margin:  0;
+	height: 8px; 
+    border: 0;
+
+}
+a,
+a:hover,
+a:focus,
+a:visited{
+	text-decoration: none
+}
+
+/* login page style */
+.login-body{background-color: #E4E4E4;}
+.login{
+	width: 300px;
+	margin: 100px auto;
+}
+.login input{margin-bottom: 10px}
+
+/* admin index page style */
+.header{
+	min-height: 500px;
+}
+
+.nav-pills > li > a{
+	font-size: 15px;
+	color: #777;
+    background-color: #f8f8f8;
+    margin-bottom: 10px;
+    -webkit-transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+	transition: all .7s ease-in-out;
+}
+
+ .nav-pills > li > a:hover, .nav-pills > li > a:focus{
+ 	padding: 10px;
+ 	background-color: #646464;
+    color: #FFF
+ }
+ footer{width: 100%; margin-top: 40px}
+footer .well,.well-lg{width: 100% ; margin: 0; border:0; margin-top: 40px}
+
+/* dashboaerd section */
+.dashboard {margin-top: 30px}
+.dashboard h3{margin-bottom: 40px}
+.dashboard .container{width: 60%}
+.dashboard .stat{
+    color: #FFF;
+    background-color: #EEE;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    border-radius: 5%
+}
+.dashboard .admin {background-color: #3498db}
+.dashboard .vid {background-color: #FF9100}
+.dashboard .reading {background-color: #9ADE16}
+.dashboard .quest {background-color: #933A96}
+.dashboard .stat span{
+    display: block;
+    font-size: 40px
+}
+/* edit account section */
+.editAccount h4{font-size: 25px}
+.editAccount .control-label{display: inline-block;margin-right: 10px}
+.editAccount .form-control {
+    width: 60%;
+    display: inline-block;
+    margin-top: 20px
+}
+.editAccount .btn{width: 150px}
+
+/*  section manage admins */
+.main-table tr:first-child td{
+    background-color: #777;
+    color: #FFF;
+    font-weight: bold;
+}
+.manage-videos img{
+    width: 40px;
+    height: 40px;
+}
+.vid-contents{display: none; margin-top: 30px; margin-bottom: 35px}
+
+.ad-vid img{margin: 10px auto; width: 70px;height: 70px}
+
+
+
+
+
+
+
+
+
+
+
+
+
